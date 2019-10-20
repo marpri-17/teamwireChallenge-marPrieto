@@ -9,6 +9,7 @@ Project Requeriments:
 
 Extra features:
 - Delete wish from list
+- Verification of empty text field or existing item
 - Save wishes in LocalStorage for recover data at each user visit
 - Responsive (Mobile First)
 
