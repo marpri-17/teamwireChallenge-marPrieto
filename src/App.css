@@ -1,0 +1,51 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(231,56,39,0.5) 100%);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.list-item{
+  transition: background-color 0.2s ease-in-out;
+}
+.list-item:hover{
+  cursor: pointer;
+  background-color: #E2CAC8;
+}
+
+.wish_list {
+  text-align: center;
+}
+.form_wish {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.page_header{
+  min-height: 20vh;
+}
+.page_title{
+  margin-top: 20px;
+  font-size: bold;
+}
+.header_image{
+  height: 200px;
+  width: auto;
+}
+.decorative_image{
+ z-index: -1;
+}
